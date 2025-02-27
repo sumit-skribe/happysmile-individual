@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: happysmile-individual
-        image: registry.digitalocean.com/searchcombat/happysmile-individual:sha-d6df650
+        image: registry.digitalocean.com/searchcombat/happysmile-individual:sha-a620e1a
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
@@ -45,3 +45,30 @@ spec:
   - protocol: TCP
     port: 80
     targetPort: 3000
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: happysmile-individual
+  namespace: searchcombat
+  labels:
+    environment: production
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /$1
+spec:
+  ingressClassName: nginx
+  tls:
+    - hosts:
+        - happysmile.webdrift.ai
+      secretName: webdrift.ai
+  rules:
+    - host: happysmile.webdrift.ai
+      http:
+        paths:
+          - path: /?(.*)
+            pathType: ImplementationSpecific
+            backend:
+              service:
+                name: happysmile-individual
+                port:
+                  number: 80
