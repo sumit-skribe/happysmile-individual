@@ -1,0 +1,10 @@
+###
+POST https://awewigs.com/api/create-file
+Content-Type: application/json
+
+{
+    "filename": "awewigs.com",
+    "content": {
+        "name": "herosection"
+    }
+}

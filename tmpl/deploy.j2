@@ -1,0 +1,47 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: happysmile-individual
+  namespace: searchcombat
+  labels:
+    environment: production
+spec:
+  template:
+    metadata:
+      labels:
+        app: happysmile-individual
+    spec:
+      containers:
+      - name: happysmile-individual
+        image: registry.digitalocean.com/searchcombat/happysmile-individual:{{ image_deploy_tag }}
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 3000
+        resources:
+          requests:
+            cpu: 500m
+            memory: 800Mi
+          limits:
+            cpu: 600m
+            memory: 1Gi
+  replicas: 1
+  selector:
+    matchLabels:
+      app: happysmile-individual
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: happysmile-individual
+  namespace: searchcombat
+  labels:
+    environment: production
+spec:
+  type: ClusterIP
+  selector:
+    app: happysmile-individual
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 3000
