@@ -7,3 +7,35 @@
   https://2fa.live
   2FA Key: 4AXKBBHM6QE3RUE64M64C7WGNEDDKZDP
   dop_v1_a9c02afdaa76f693bbf6a05dd34a07674015c9951bc8b1f1049c0b586dd38a6f
+
+Title: Refactor Next.js Page & Header Component to Best Practices with TypeScript
+Description:
+I have a Next.js project that includes a page and a header component (currently divided into multiple parts). I’d like to refactor the code to follow the best practices for Next.js and TypeScript. This should include improvements in code structure, component organization, and folder/file naming conventions.
+
+Current Setup:
+
+- Page Location: /app/page.tsx
+- Header Component: header.tsx (divided into parts: collapsible-item.tsx, DesktopMenu.tsx,
+  header-top.tsx, MobileMenuToggle.tsx, useBreakpoint.ts, useDisableScroll.ts, useOutsideClick.ts)
+
+Requirements:
+
+- Code Refactoring:
+  Convert the header component(s) into a consolidated, maintainable format using TypeScript.
+  Implement best practices for Next.js components (e.g., functional components, proper hooks usage, etc.).
+
+- Folder & File Structure:
+  Reorganize folders and file names according to modern Next.js standards.
+  Rename files or components if necessary to reflect their purpose more clearly.
+
+- Optimization & Best Practices:
+  Ensure the refactored code adheres to the latest Next.js and TypeScript best practices.
+  Include any additional improvements for readability, performance, or maintainability.
+
+- Output Expectations:
+  Provide the updated code snippets for the refactored components and pages.
+  Offer a brief explanation of the changes made, including any new folder structures or naming conventions.
+
+- Additional Notes:
+  The refactoring should maintain all existing functionality.
+  Please suggest any further optimizations if applicable.

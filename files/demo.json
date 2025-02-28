@@ -1,0 +1,19 @@
+{
+  "niche": "Niche",
+  "location": "City",
+  "websiteName": "Website Name",
+  "favicon": "https://pub-26d044217d7d4467b9ed890eae28cf66.r2.dev/favicon.ico",
+  "header": {
+    "logoUrl": "https://pub-26d044217d7d4467b9ed890eae28cf66.r2.dev/1740660731161-logo.svg",
+    "menuItems": ["Home", "About", "Contact", "Services"],
+    "buttonText": "Book an appointment"
+  },
+  "hero": {
+    "backgroundImage": "https://pub-26d044217d7d4467b9ed890eae28cf66.r2.dev/bg-hero.png",
+    "heroImage": "https://pub-26d044217d7d4467b9ed890eae28cf66.r2.dev/hero.png",
+    "niche": "Plumber",
+    "location": "USA",
+    "number": "+1 234 567 890",
+    "paragraph": "Book an appointment with a dentist near you. Our experienced dentists provide top-notch dental care to ensure your smile stays healthy and bright. Schedule your visit today and experience the best in dental services."
+  }
+}

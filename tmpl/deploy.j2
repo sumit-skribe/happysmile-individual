@@ -45,3 +45,45 @@ spec:
   - protocol: TCP
     port: 80
     targetPort: 3000
+---
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: happysmile-individual
+  namespace: happysmile
+  labels:
+    environment: production
+spec:
+  secretName: happysmile-individual
+  issuerRef:
+    name: letsencrypt-http
+    kind: ClusterIssuer
+  dnsNames:
+  - happysmile.webdrift.ai
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: happysmile-individual
+  namespace: happysmile
+  labels:
+    environment: production
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /$1
+spec:
+  ingressClassName: nginx
+  tls:
+    - hosts:
+        - happysmile.webdrift.ai
+      secretName: happysmile-individual
+  rules:
+    - host: happysmile.webdrift.ai
+      http:
+        paths:
+          - path: /?(.*)
+            pathType: ImplementationSpecific
+            backend:
+              service:
+                name: happysmile-individual
+                port:
+                  number: 80
