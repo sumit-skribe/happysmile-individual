@@ -1,3 +1,4 @@
+import Image from "next/image";
 import * as React from "react";
 import { BsArrowRightSquareFill } from "react-icons/bs";
 import { PiPhoneCallBold } from "react-icons/pi";
@@ -52,7 +53,15 @@ export const Hero: React.FC<HeroProps> = ({
           </div>
         </div>
         <div className="lg:flex-1">
-          <img src={heroImage} alt="hero" />
+          <div className="w-[580px] h-[480px] overflow-hidden relative">
+            <Image
+              src={heroImage}
+              alt="hero"
+              layout="fill"
+              loading="lazy"
+              objectFit="cover"
+            />
+          </div>
         </div>
       </div>
     </div>

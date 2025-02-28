@@ -8,8 +8,8 @@ import Header from "@/components/header/header";
 
 const Page = () => {
   const httpHeaders = headers();
-  httpHeaders.get("host") as string;
-  const data = getData("awewigs.com");
+  const domain = httpHeaders.get("host") as string;
+  const data = getData(domain);
 
   return (
     <Fragment>
