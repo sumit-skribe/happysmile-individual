@@ -1,0 +1,126 @@
+{
+  "niche": "react-dev.co.in",
+  "location": "software development",
+  "otherLocation": ["mumbai"],
+  "favicon": "https://pub-26d044217d7d4467b9ed890eae28cf66.r2.dev/1741429103317-favicon.svg",
+  "header": {
+    "logoUrl": "https://pub-26d044217d7d4467b9ed890eae28cf66.r2.dev/1741429103317-logo.svg",
+    "menuItems": ["Home", "About", "Services", "Contact"],
+    "buttonText": "Book now"
+  },
+  "hero": {
+    "backgroundImage": "https://pub-26d044217d7d4467b9ed890eae28cf66.r2.dev/bg-hero.png",
+    "heroImage": "https://images.pexels.com/photos/4687254/pexels-photo-4687254.jpeg",
+    "niche": "react-dev.co.in",
+    "location": "software development",
+    "number": "123456",
+    "paragraph": "Our software development services cater to businesses of all sizes, providing custom solutions to meet your unique needs. Our team of experienced developers ensures convenience and accessibility, delivering high-quality software on time and within budget. With our local service, you can easily communicate and collaborate with us to bring your ideas to life."
+  },
+  "howitworks": {
+    "callText": "Lorem ipsum is simply dummy text for call",
+    "emailText": "Lorem ipsum is simply dummy text for email",
+    "appointmentText": "Lorem ipsum is simply dummy text for appointment",
+    "phoneNumber": "(528) 456-7592",
+    "emailAddress": "contact@dentistfinders.net",
+    "sectionParagraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  "whychooseus": {
+    "benefits": [
+      "Expert team support",
+      "Customized solutions",
+      "Rapid development process",
+      "24/7 customer service"
+    ],
+    "paragraph": "Customers should choose our software development services because we have a team of highly skilled and experienced developers who are dedicated to delivering quality products. Our commitment to providing exceptional customer service sets us apart from competitors, ensuring that every client receives personalized attention and support throughout the development process. We prioritize trust and transparency, building long-lasting relationships with our customers based on mutual understanding and reliability. With a focus on exceeding expectations and delivering innovative solutions, we strive to meet the unique needs and concerns of every client, making us the ideal choice for businesses looking to elevate their software development efforts.",
+    "images": [
+      "https://searchcombat.imgix.net/searchcombat/doctor-portrait-why-02.jpeg?auto=format,enhance&q=60",
+      "https://searchcombat.imgix.net/searchcombat/doctor-portrait-why.jpeg?auto=format,enhance&q=60"
+    ]
+  },
+  "service": {
+    "subservices": [
+      {
+        "title": "Code Review",
+        "description": "Our team of expert developers will thoroughly review your code for bugs, security vulnerabilities, and best practices to ensure a high-quality final product."
+      },
+      {
+        "title": "Mobile App Development",
+        "description": "We specialize in creating custom mobile applications for iOS and Android platforms, tailored to meet your specific business requirements and user needs."
+      }
+    ],
+    "description": "Our software development services cater to a wide range of industries, providing custom solutions tailored to meet our clients' unique needs. With a focus on quality and customer satisfaction, we strive to deliver innovative and reliable software products."
+  },
+  "commitment": {
+    "description": "Committed to quality software development, ensuring customer satisfaction through exceptional service delivery.",
+    "number": "200+"
+  },
+  "testimonial": {
+    "description": "Discover what our satisfied customers have to say about their positive experiences with our software development services.",
+    "testimonials": [
+      {
+        "text": "I was struggling with outdated software that was costing me time and money. Thankfully, this software development service provider was able to create a customized solution that streamlined my processes and increased efficiency. I am beyond satisfied with the results.",
+        "author": "Sarah C."
+      },
+      {
+        "text": "I needed a mobile app developed for my business, but I had no idea where to start. This software development service provider took my concept and turned it into a user-friendly app that has been a game-changer for my company. Their expertise is unmatched.",
+        "author": "John D."
+      },
+      {
+        "text": "Our company was experiencing major security vulnerabilities in our current software. Thanks to this software development service provider, we now have a secure and robust system in place that ensures our data is protected at all times. Their attention to detail is impressive.",
+        "author": "Emily M."
+      },
+      {
+        "text": "I had a vision for a unique software program, but I wasn't sure if it was achievable. This software development service provider not only brought my vision to life, but they also exceeded my expectations with their creativity and innovation. I highly recommend their services.",
+        "author": "Adam R."
+      },
+      {
+        "text": "As a small business owner, I needed a cost-effective solution for managing my operations. This software development service provider delivered a customized software package that has saved me both time and money. Their customer service and technical expertise are top-notch.",
+        "author": "Laura S."
+      }
+    ]
+  },
+  "section": {
+    "faqs": [
+      {
+        "question": "What is software development?",
+        "answer": "Software development is the process of creating and maintaining software applications."
+      },
+      {
+        "question": "What are the steps involved in software development?",
+        "answer": "The steps involved in software development typically include planning, designing, coding, testing, and deployment."
+      },
+      {
+        "question": "What programming languages are commonly used in software development?",
+        "answer": "Some common programming languages used in software development include Java, Python, C++, and JavaScript."
+      },
+      {
+        "question": "What is the difference between frontend and backend development?",
+        "answer": "Frontend development focuses on the user interface and user experience, while backend development focuses on server-side logic and databases."
+      },
+      {
+        "question": "What is version control and why is it important in software development?",
+        "answer": "Version control is the management of changes to documents, computer programs, large web sites, and other collections of information. It is important in software development to track changes, collaborate with other developers, and revert to previous versions if necessary."
+      },
+      {
+        "question": "What is Agile software development?",
+        "answer": "Agile software development is a methodology that emphasizes flexibility, collaboration, and customer satisfaction. It involves breaking the development process into small, incremental steps and adapting to changes quickly."
+      },
+      {
+        "question": "What are software development best practices?",
+        "answer": "Software development best practices include writing clean, maintainable code, testing thoroughly, documenting code and processes, collaborating with other developers, and continuously learning and improving."
+      },
+      {
+        "question": "What is the significance of code reviews in software development?",
+        "answer": "Code reviews are a process in software development in which developers review each other's code to find bugs, share knowledge, ensure consistency, and improve code quality."
+      },
+      {
+        "question": "What is the role of quality assurance in software development?",
+        "answer": "Quality assurance involves ensuring that software meets specified requirements and is free of defects before release. It includes testing, debugging, and ensuring that the software functions as intended."
+      },
+      {
+        "question": "What are the common challenges in software development?",
+        "answer": "Common challenges in software development include meeting deadlines, managing project scope, addressing technical debt, ensuring code quality, and effectively collaborating with team members."
+      }
+    ]
+  }
+}

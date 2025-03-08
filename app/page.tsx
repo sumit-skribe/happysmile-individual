@@ -14,23 +14,29 @@ const Page = () => {
 
   return (
     <Fragment>
-      <Header
-        logoUrl={data.header.logoUrl}
-        buttonText={data.header.buttonText}
-        menuItems={data.header.menuItems}
-      />
-      <Hero
-        backgroundImage={data.hero.backgroundImage}
-        heroImage={data.hero.heroImage}
-        location={data.hero.location}
-        number={data.hero.number}
-        niche={data.hero.niche}
-        paragraph={data.hero.paragraph}
-      />
-      <OurServices
-        description={data.ourservices.description}
-        subservices={data.ourservices.subservices}
-      />
+      {data.header && (
+        <Header
+          logoUrl={data.header.logoUrl}
+          buttonText={data.header.buttonText}
+          menuItems={data.header.menuItems}
+        />
+      )}
+      {data.hero && (
+        <Hero
+          backgroundImage={data.hero.backgroundImage}
+          heroImage={data.hero.heroImage}
+          location={data.hero.location}
+          number={data.hero.number}
+          niche={data.hero.niche}
+          paragraph={data.hero.paragraph}
+        />
+      )}
+      {data.service && (
+        <OurServices
+          description={data.service.description}
+          subservices={data.service.subservices}
+        />
+      )}
     </Fragment>
   );
 };

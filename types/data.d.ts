@@ -34,5 +34,5 @@ export interface SiteData {
   favicon: string;
   header: HeaderData;
   hero: HeroData;
-  ourservices: OurServicesData;
+  service: OurServicesData;
 }
