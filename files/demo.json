@@ -15,5 +15,36 @@
     "location": "USA",
     "number": "+1 234 567 890",
     "paragraph": "Book an appointment with a dentist near you. Our experienced dentists provide top-notch dental care to ensure your smile stays healthy and bright. Schedule your visit today and experience the best in dental services."
+  },
+  "howitworks": {
+    "callText": "Lorem ipsum is simply dummy text for call",
+    "emailText": "Lorem ipsum is simply dummy text for email",
+    "appointmentText": "Lorem ipsum is simply dummy text for appointment",
+    "phoneNumber": "(528) 456-7592",
+    "emailAddress": "contact@dentistfinders.net",
+    "sectionParagraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  "whychooseus": {
+    "benefits": [],
+    "paragraph": "",
+    "images": [
+      "https://searchcombat.imgix.net/searchcombat/doctor-portrait-why-02.jpeg?auto=format,enhance&q=60",
+      "https://searchcombat.imgix.net/searchcombat/doctor-portrait-why.jpeg?auto=format,enhance&q=60"
+    ]
+  },
+  "service": {
+    "subservices": [],
+    "description": ""
+  },
+  "commitment": {
+    "description": "",
+    "number": "200+"
+  },
+  "testimonial": {
+    "description": "",
+    "testimonials": []
+  },
+  "section": {
+    "faqs": []
   }
 }

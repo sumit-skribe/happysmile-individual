@@ -1,5 +1,5 @@
-import Image from "next/image";
 import * as React from "react";
+import Image from "next/image";
 import { BsArrowRightSquareFill } from "react-icons/bs";
 import { PiPhoneCallBold } from "react-icons/pi";
 

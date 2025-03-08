@@ -2,6 +2,7 @@ export interface HeaderData {
   logoUrl: string;
   menuItems: string[];
   buttonText: string;
+  _id: string;
 }
 
 export interface HeroData {
@@ -11,6 +12,19 @@ export interface HeroData {
   location: string;
   number: string;
   paragraph: string;
+  _id: string;
+}
+
+export interface Subservice {
+  title: string;
+  description: string;
+  _id: string;
+}
+
+export interface OurServicesData {
+  subservices: Subservice[];
+  description: string;
+  _id: string;
 }
 
 export interface SiteData {
@@ -20,4 +34,5 @@ export interface SiteData {
   favicon: string;
   header: HeaderData;
   hero: HeroData;
+  ourservices: OurServicesData;
 }
