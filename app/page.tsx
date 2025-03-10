@@ -10,6 +10,7 @@ import { Section as HowItWorks } from "@/components/howitworks/section";
 import { Section as WhyChooseUs } from "@/components/whychooseus/section";
 import { Section as OurCommitment } from "@/components/ourcommitment/section";
 import { Section as Testimonial } from "@/components/testimonial/section";
+import { Footer } from "@/components/footer/footer";
 
 const Page = () => {
   const httpHeaders = headers();
@@ -72,6 +73,15 @@ const Page = () => {
         <Testimonial
           description={data.testimonial.description}
           testimonials={data.testimonial.testimonials}
+        />
+      )}
+
+      {data.footer && (
+        <Footer
+          companyName={data.footer.companyName}
+          logoSrc={data.footer.logoSrc}
+          contactEmail={data.footer.contactEmail}
+          contactNumber={data.footer.contactNumber}
         />
       )}
     </Fragment>

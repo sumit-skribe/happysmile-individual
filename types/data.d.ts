@@ -64,6 +64,14 @@ export interface TestimonialsData {
   testimonials: Testimonial[];
 }
 
+/* footer */
+export interface FooterData {
+  logoSrc: string;
+  companyName: string;
+  contactEmail: string;
+  contactNumber: string;
+}
+
 /* site data */
 export interface SiteData {
   niche: string;
@@ -77,4 +85,5 @@ export interface SiteData {
   whychooseus: WhyChooseUsData;
   commitment: CommitmentData;
   testimonial: TestimonialsData;
+  footer: FooterData;
 }
