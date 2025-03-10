@@ -8,6 +8,8 @@ import Header from "@/components/header/header";
 import { Section as OurServices } from "@/components/ourservices/section";
 import { Section as HowItWorks } from "@/components/howitworks/section";
 import { Section as WhyChooseUs } from "@/components/whychooseus/section";
+import { Section as OurCommitment } from "@/components/ourcommitment/section";
+import { Section as Testimonial } from "@/components/testimonial/section";
 
 const Page = () => {
   const httpHeaders = headers();
@@ -52,10 +54,24 @@ const Page = () => {
         />
       )}
 
+      {data.commitment && (
+        <OurCommitment
+          description={data.commitment.description}
+          number={data.commitment.number}
+        />
+      )}
+
       {data.service && (
         <OurServices
           description={data.service.description}
           subservices={data.service.subservices}
+        />
+      )}
+
+      {data.testimonial && (
+        <Testimonial
+          description={data.testimonial.description}
+          testimonials={data.testimonial.testimonials}
         />
       )}
     </Fragment>

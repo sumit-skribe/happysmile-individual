@@ -47,6 +47,23 @@ export interface WhyChooseUsData {
   images: string[];
 }
 
+/* commitment */
+export interface CommitmentData {
+  description: string;
+  number: string;
+}
+
+/* testimonials */
+export interface Testimonial {
+  text: string;
+  author: string;
+}
+
+export interface TestimonialsData {
+  description: string;
+  testimonials: Testimonial[];
+}
+
 /* site data */
 export interface SiteData {
   niche: string;
@@ -58,4 +75,6 @@ export interface SiteData {
   service: OurServicesData;
   howitworks: HowItWorksData;
   whychooseus: WhyChooseUsData;
+  commitment: CommitmentData;
+  testimonial: TestimonialsData;
 }
