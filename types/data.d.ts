@@ -1,3 +1,4 @@
+/* header */
 export interface HeaderData {
   logoUrl: string;
   menuItems: string[];
@@ -5,6 +6,7 @@ export interface HeaderData {
   _id: string;
 }
 
+/* hero  */
 export interface HeroData {
   backgroundImage: string;
   heroImage: string;
@@ -15,6 +17,7 @@ export interface HeroData {
   _id: string;
 }
 
+/* our services  */
 export interface Subservice {
   title: string;
   description: string;
@@ -27,6 +30,17 @@ export interface OurServicesData {
   _id: string;
 }
 
+/* how it works */
+export interface HowItWorksData {
+  callText: string;
+  emailText: string;
+  appointmentText: string;
+  phoneNumber: string;
+  emailAddress: string;
+  sectionParagraph: string;
+}
+
+/* site data */
 export interface SiteData {
   niche: string;
   location: string;
@@ -35,4 +49,5 @@ export interface SiteData {
   header: HeaderData;
   hero: HeroData;
   service: OurServicesData;
+  howitworks: HowItWorksData;
 }

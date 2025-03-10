@@ -6,6 +6,7 @@ import { Fragment } from "react";
 import { Hero } from "@/components/hero/hero";
 import Header from "@/components/header/header";
 import { Section as OurServices } from "@/components/ourservices/section";
+import { Section as HowItWorks } from "@/components/howitworks/section";
 
 const Page = () => {
   const httpHeaders = headers();
@@ -29,6 +30,16 @@ const Page = () => {
           number={data.hero.number}
           niche={data.hero.niche}
           paragraph={data.hero.paragraph}
+        />
+      )}
+      {data.howitworks && (
+        <HowItWorks
+          callText={data.howitworks.callText}
+          emailText={data.howitworks.emailText}
+          appointmentText={data.howitworks.appointmentText}
+          phoneNumber={data.howitworks.phoneNumber}
+          emailAddress={data.howitworks.emailAddress}
+          sectionParagraph={data.howitworks.sectionParagraph}
         />
       )}
       {data.service && (
