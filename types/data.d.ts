@@ -72,6 +72,33 @@ export interface FooterData {
   contactNumber: string;
 }
 
+/* what we do */
+export interface WhatWeDoData {
+  benefits: string[];
+  paragraph: string;
+  images: string;
+}
+
+/* mission */
+export interface MissionCard {
+  src: string;
+  heading: string;
+  paragraph: string;
+}
+
+export interface MissionData {
+  cards: MissionCard[];
+}
+
+/* faqs */
+export interface FAQ {
+  question: string;
+  answer: string;
+}
+
+export interface FAQsData {
+  faqs: FAQ[];
+}
 /* site data */
 export interface SiteData {
   niche: string;
@@ -86,4 +113,7 @@ export interface SiteData {
   commitment: CommitmentData;
   testimonial: TestimonialsData;
   footer: FooterData;
+  whatwedo: WhatWeDoData;
+  mission: MissionData;
+  section: FAQsData;
 }
