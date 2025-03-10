@@ -7,6 +7,7 @@ import { Hero } from "@/components/hero/hero";
 import Header from "@/components/header/header";
 import { Section as OurServices } from "@/components/ourservices/section";
 import { Section as HowItWorks } from "@/components/howitworks/section";
+import { Section as WhyChooseUs } from "@/components/whychooseus/section";
 
 const Page = () => {
   const httpHeaders = headers();
@@ -42,6 +43,15 @@ const Page = () => {
           sectionParagraph={data.howitworks.sectionParagraph}
         />
       )}
+
+      {data.whychooseus && (
+        <WhyChooseUs
+          benefits={data.whychooseus.benefits}
+          paragraph={data.whychooseus.paragraph}
+          images={data.whychooseus.images}
+        />
+      )}
+
       {data.service && (
         <OurServices
           description={data.service.description}

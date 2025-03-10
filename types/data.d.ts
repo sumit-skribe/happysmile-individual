@@ -40,6 +40,13 @@ export interface HowItWorksData {
   sectionParagraph: string;
 }
 
+/* why choose us */
+export interface WhyChooseUsData {
+  benefits: string[];
+  paragraph: string;
+  images: string[];
+}
+
 /* site data */
 export interface SiteData {
   niche: string;
@@ -50,4 +57,5 @@ export interface SiteData {
   hero: HeroData;
   service: OurServicesData;
   howitworks: HowItWorksData;
+  whychooseus: WhyChooseUsData;
 }
