@@ -11,16 +11,18 @@ export interface FooterProps {
   contactNumber: string;
 }
 
-export const Footer: React.FC<FooterProps> = ({ logoSrc, companyName, contactEmail, contactNumber }) => {
+export const Footer: React.FC<FooterProps> = ({
+  logoSrc,
+  companyName,
+  contactEmail,
+  contactNumber,
+}) => {
   return (
     <div className="bg-secondary-02 py-12 font-inter">
       <div className="flex lg:flex-row lg:justify-between web-mx flex-col justify-start gap-8">
         <div className="flex flex-col gap-24">
-          <Logo
-            src={logoSrc}
-            width={162}
-            height={55}
-          />
+          <Logo src={logoSrc} />
+
           <div>
             <div className="text-color flex flex-row gap-3 items-center">
               <MdLocationPin className="text-xl font-medium" />
@@ -34,9 +36,7 @@ export const Footer: React.FC<FooterProps> = ({ logoSrc, companyName, contactEma
             </div>
             <div className="text-color flex flex-row gap-3 items-center">
               <MdEmail className="text-xl font-medium" />
-              <span className="text-xl font-medium">
-                {contactEmail}
-              </span>
+              <span className="text-xl font-medium">{contactEmail}</span>
             </div>
           </div>
         </div>
