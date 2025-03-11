@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: happysmile-individual
-        image: registry.digitalocean.com/searchcombat/happysmile-individual:sha-869dd17
+        image: registry.digitalocean.com/searchcombat/happysmile-individual:sha-f718eae
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
