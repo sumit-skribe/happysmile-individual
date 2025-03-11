@@ -26,6 +26,7 @@ export default function Services() {
         subservices={data.service.subservices}
         description={data.service.description}
       />
+      {data.section && <FAQs faqs={data.section.faqs} />}
       {data.footer && (
         <Footer
           companyName={data.footer.companyName}
