@@ -9,10 +9,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      screens: {
-        md: "640px",
-        lg: "1024px",
-      },
+      // screens: {
+      //   md: "640px",
+      //   lg: "1024px",
+      // },
       colors: {
         primary: "#1E40AF",
         accent: "#06B6D4",
