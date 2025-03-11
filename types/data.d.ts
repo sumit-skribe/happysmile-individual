@@ -99,6 +99,12 @@ export interface FAQ {
 export interface FAQsData {
   faqs: FAQ[];
 }
+
+/* contact us */
+export interface ContactUsData {
+  description: string;
+}
+
 /* site data */
 export interface SiteData {
   niche: string;
@@ -116,4 +122,5 @@ export interface SiteData {
   whatwedo: WhatWeDoData;
   mission: MissionData;
   section: FAQsData;
+  contactus: ContactUsData;
 }
