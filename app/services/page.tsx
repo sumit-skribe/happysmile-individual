@@ -8,9 +8,11 @@ import { ServiceBooking } from "@/components/servicebooking/ServiceBooking";
 import { Ourservicenocarousal } from "@/components/ourservicenocarousal/ourservicenocarousal";
 
 export default function Services() {
-  const httpHeaders = headers();
-  const domain = httpHeaders.get("host") as string;
-  const data = getData(domain);
+  // const httpHeaders = headers();
+  // const domain = httpHeaders.get("host") as string;
+  // const data = getData(domain);
+
+  const data = getData("localhost:3000");
 
   return (
     <Fragment>

@@ -5,9 +5,11 @@ import { getData } from "@/utils/dataProvider";
 import { headers } from "next/headers";
 
 export default function Contact() {
-  const httpHeaders = headers();
-  const domain = httpHeaders.get("host") as string;
-  const data = getData(domain);
+  // const httpHeaders = headers();
+  // const domain = httpHeaders.get("host") as string;
+  // const data = getData(domain);
+
+  const data = getData("localhost:3000");
 
   return (
     <div>

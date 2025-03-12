@@ -13,10 +13,10 @@ import { Section as Testimonial } from "@/components/testimonial/section";
 import { Footer } from "@/components/footer/footer";
 
 const Page = () => {
-  const httpHeaders = headers();
-  const domain = httpHeaders.get("host") as string;
-  console.log(domain);
-  const data = getData(domain);
+  // const httpHeaders = headers();
+  // const domain = httpHeaders.get("host") as string;
+  // console.log(domain);
+  const data = getData("localhost:3000");
 
   return (
     <Fragment>
