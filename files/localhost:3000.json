@@ -1,0 +1,164 @@
+{
+  "niche": "Software Development",
+  "location": "Delhi",
+  "otherLocation": ["Mumbai"],
+  "favicon": "https://pub-26d044217d7d4467b9ed890eae28cf66.r2.dev/1741671236254-favicon.svg",
+  "header": {
+    "logoUrl": "https://pub-26d044217d7d4467b9ed890eae28cf66.r2.dev/1741671236253-logo.svg",
+    "menuItems": ["Home", "About", "Services", "Contact"],
+    "buttonText": "Book now"
+  },
+  "hero": {
+    "backgroundImage": "https://pub-26d044217d7d4467b9ed890eae28cf66.r2.dev/bg-hero.png",
+    "heroImage": "https://images.pexels.com/photos/4687254/pexels-photo-4687254.jpeg",
+    "niche": "Software Development",
+    "location": "Delhi",
+    "number": "7895245920",
+    "paragraph": "Looking for top-notch Software Development services? Look no further! Our team of experienced developers is here to provide you with customized solutions tailored to your specific needs. With a focus on convenience and accessibility, we deliver high-quality software development services that exceed expectations. Contact us for a local service experience."
+  },
+  "howitworks": {
+    "callText": "Lorem ipsum is simply dummy text for call",
+    "emailText": "Lorem ipsum is simply dummy text for email",
+    "appointmentText": "Lorem ipsum is simply dummy text for appointment",
+    "phoneNumber": "(528) 456-7592",
+    "emailAddress": "contact@dentistfinders.net",
+    "sectionParagraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  "whychooseus": {
+    "benefits": [
+      "Customized solutions for clients",
+      "24/7 customer support",
+      "High-quality coding",
+      "Fast turnaround times"
+    ],
+    "paragraph": "Customers should choose Software Development for their expertise in creating high-quality, custom software solutions. Their dedication to excellent customer service ensures that clients receive personalized attention and support throughout the development process. Trust is a key factor in their relationships with customers, as they consistently deliver reliable and innovative software products. Software Development sets itself apart from competitors by prioritizing the unique needs and concerns of each client, ensuring complete satisfaction and success.",
+    "images": [
+      "https://searchcombat.imgix.net/searchcombat/doctor-portrait-why-02.jpeg?auto=format,enhance&q=60",
+      "https://searchcombat.imgix.net/searchcombat/doctor-portrait-why.jpeg?auto=format,enhance&q=60"
+    ]
+  },
+  "service": {
+    "subservices": [
+      {
+        "title": "Code Review",
+        "description": "Our team of experienced developers will thoroughly review your code to ensure quality, security, and efficiency."
+      },
+      {
+        "title": "Mobile App Development",
+        "description": "We specialize in creating mobile applications for iOS and Android platforms, tailored to your specific needs and requirements."
+      },
+      {
+        "title": "Web Development",
+        "description": "From front-end design to back-end functionality, our web development services cover the full spectrum of creating modern and responsive websites."
+      },
+      {
+        "title": "Bug Identifier",
+        "description": "Our team will assist in identifying and fixing bugs within your software to ensure smooth functionality and user experience."
+      }
+    ],
+    "description": "Software Development offers a wide range of services including custom software development, mobile app development, and web development. Our team is dedicated to delivering high-quality solutions tailored to meet our clients' needs and exceed their expectations."
+  },
+  "commitment": {
+    "description": "Committed to quality, customer satisfaction, and delivering exceptional service in Software Development.",
+    "number": "200+"
+  },
+  "testimonial": {
+    "description": "Some description related to testimonial",
+    "testimonials": [
+      {
+        "description": "Our team was extremely satisfied with the software developed. It met all our needs and improved our efficiency.",
+        "rating": 5
+      },
+      {
+        "description": "The software development team was professional, timely, and produced high-quality work. Highly recommend!",
+        "rating": 4.5
+      },
+      {
+        "description": "Outstanding experience working with this software development company. They exceeded our expectations and delivered a top-notch product.",
+        "rating": 5
+      }
+    ]
+  },
+  "section": {
+    "faqs": [
+      {
+        "question": "What is software development?",
+        "answer": "Software development is the process of designing, coding, testing, and maintaining software applications."
+      },
+      {
+        "question": "What is the difference between front-end and back-end development?",
+        "answer": "Front-end development focuses on the user interface and user experience, while back-end development deals with server-side logic and database management."
+      },
+      {
+        "question": "What programming languages are commonly used in software development?",
+        "answer": "Some commonly used programming languages in software development include Java, Python, C++, JavaScript, and Ruby."
+      },
+      {
+        "question": "What is an IDE?",
+        "answer": "An IDE (Integrated Development Environment) is a software application that provides comprehensive tools for software development, such as code editor, debugger, and compiler."
+      },
+      {
+        "question": "What is version control?",
+        "answer": "Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later."
+      },
+      {
+        "question": "What is Agile methodology?",
+        "answer": "Agile methodology is a project management approach that emphasizes iterative development, collaboration, and customer feedback."
+      },
+      {
+        "question": "What is the difference between waterfall and Agile methodologies?",
+        "answer": "Waterfall is a linear and sequential approach to software development, while Agile is iterative and adaptive."
+      },
+      {
+        "question": "What is testing in software development?",
+        "answer": "Testing in software development is the process of evaluating and verifying that a software application meets the specified requirements and is free of defects."
+      },
+      {
+        "question": "What is DevOps?",
+        "answer": "DevOps is a software development methodology that combines software development (Dev) with IT operations (Ops) to shorten the systems development life cycle."
+      },
+      {
+        "question": "What is Continuous Integration/Continuous Deployment (CI/CD)?",
+        "answer": "CI/CD is a best practice in software development that involves automating the process of integrating and deploying code changes frequently and consistently."
+      }
+    ]
+  },
+  "whatwedo": {
+    "benefits": [
+      "Customized solutions for your needs",
+      "24/7 technical support",
+      "Experienced team of developers",
+      "Quick turnaround time"
+    ],
+    "paragraph": "Our software development company stands out from the competition by offering a unique blend of benefits that prioritize the needs of our customers. With a customer-first approach, we ensure that every project is tailored to meet the specific requirements and exceed expectations. Our team of experienced developers delivers high-quality solutions with a focus on trust, reliability, and convenience. We go above and beyond to provide superior service that sets us apart in the industry.",
+    "images": "https://pub-26d044217d7d4467b9ed890eae28cf66.r2.dev/whatwedo.png"
+  },
+  "mission": {
+    "cards": [
+      {
+        "src": "https://pub-26d044217d7d4467b9ed890eae28cf66.r2.dev/mission-vision-value.png",
+        "heading": "Our Mission",
+        "paragraph": "The mission of Software Development is to deliver high-quality, innovative solutions that exceed customer expectations, provide long-term value, and create positive impacts on society."
+      },
+      {
+        "src": "https://pub-26d044217d7d4467b9ed890eae28cf66.r2.dev/mission-vision-value.png",
+        "heading": "Our Vision",
+        "paragraph": "Integrity: being honest and transparent in all coding processes. Quality: consistently delivering high-performing software. Customer focus: prioritizing client satisfaction. Trust: building strong relationships through reliability and consistency."
+      },
+      {
+        "src": "https://pub-26d044217d7d4467b9ed890eae28cf66.r2.dev/mission-vision-value.png",
+        "heading": "Values",
+        "paragraph": "The vision of Software Development is to drive continuous growth, innovation, and create positive impact through cutting-edge technology solutions that improve people's lives."
+      }
+    ]
+  },
+  "contactus": {
+    "description": "At our dental practice, we prioritize your comfort and convenience! Reach out with any questions or to schedule a consultation. Our friendly team is here to support you with easy communication and prompt responses. We can't wait to hear from you!"
+  },
+  "footer": {
+    "logoSrc": "https://pub-26d044217d7d4467b9ed890eae28cf66.r2.dev/1741671236253-logo.svg",
+    "companyName": "Thanos",
+    "contactEmail": "rubinatazak@gmail.com",
+    "contactNumber": "7895245920"
+  }
+}
